@@ -27,7 +27,7 @@
     node9 [label="Investigacion de\nOperadores2",style=filled,fillcolor=deepskyblue2,shape=box]
     node10 [label="Practica Intermedia",style=filled,fillcolor=deepskyblue2,shape=box]
     // OCTAVO SEMESTRE
-    node11 [label="Sistemas Operativos2",style=filled,fillcolor=chartreuse,shape=box]
+    node11 [label="Sistemas Operativos2",style=filled,fillcolor=deepskyblue2,shape=box]
     node12 [label="Redes de\nComputadoras2",style=filled,fillcolor=gray,shape=box]
     node13 [label="Sistema de Bases\nde datos2",style=filled,fillcolor=chartreuse,shape=box]
     node14 [label="Analisis y Diseño\nde Sistemas1",style=filled,fillcolor=deepskyblue2,shape=box]
