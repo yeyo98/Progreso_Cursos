@@ -45,6 +45,19 @@
     node24 [label="Software\nAvanzado",style=filled,fillcolor=chartreuse,shape=box]
     node25 [label="Seminario de\nInvestigacion",style=filled,fillcolor=chartreuse,shape=box]
 
+
+    // CURSOS DEL DIPLOMADO
+    node26 [label="Sistemas\nOrganizacionales y\nGerenciales1",style=filled,fillcolor=cornsilk,shape=box]
+    node27 [label="Sistemas\nOrganizacionales y\nGerenciales2",style=filled,fillcolor=hotpink4,shape=box]
+    node28 [label="Legislacion1",style=filled,fillcolor=cornsilk,shape=box]
+    node29 [label="Psicologia\nInsdustrial",style=filled,fillcolor=hotpink,shape=box]
+    node30 [label="Administracion\nde Personal",style=filled,fillcolor=cornsilk,shape=box]
+    node31 [label="Ingenieria\nEconomia",style=filled,fillcolor=hotpink,shape=box]
+    node32 [label="Prev. y Ev.\nProyectos1",style=filled,fillcolor=cornsilk,shape=box]
+    node33 [label="Etica\nProfesional",style=filled,fillcolor=cornsilk,shape=box]
+    node34 [label="Legislacion2",style=filled,fillcolor=hotpink4,shape=box]
+    
+
     //CREDITOS
     credito1 [label="170Cr.",style=filled,fillcolor=orange,shape=box]
     credito2 [label="190Cr.",style=filled,fillcolor=orange,shape=box]
@@ -57,6 +70,14 @@
         node1
         node2
         node3
+        subgraph cluster1_1{
+            label="DIPLOMADO"
+            style=filled
+            fillcolor=antiquewhite2
+            node26
+            node28
+            node29
+        }
     }
 
     subgraph cluster2{
@@ -68,6 +89,16 @@
         node7
         node8
         node10
+        
+        subgraph cluster2_1{
+            label="DIPLOMADO"
+            style=filled
+            fillcolor=antiquewhite2
+            node27
+            node30
+            node34
+            node31
+        }
     }
 
     subgraph cluster3{
@@ -77,6 +108,14 @@
         node13
         node14
         node15
+        
+        subgraph cluster2_1{
+            label="DIPLOMADO"
+            style=filled
+            fillcolor=antiquewhite2
+            node32
+            node33
+        }
     }
 
     subgraph cluster4{
@@ -96,6 +135,20 @@
         node24
         node25
     }
+    
+    /*
+    subgraph cluster6{
+        rankdir =LR
+        label="DIPLOMADO INDUSTRIAL"
+        node26
+        node27
+        node28
+        node29
+        node30
+        node31
+        node32
+        node33
+    }*/
     
     //SEMESTRE 6-7
     node3->node5 
@@ -138,6 +191,12 @@
     credito2->node20 
     credito3->node21 
     credito4->node25 
+    
+    //DIPLOMADO
+    node26->node27
+    node28->node34
+    node29->node30
+    node31->node32
     
 
 }
